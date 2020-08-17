@@ -47,7 +47,7 @@
     <div class="overlay">
       <section class="hero default-section-hero">
         <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn-studio">Заказать услугу</button>
+        <button class="btn-studio" data-modal-open>Заказать услугу</button>
       </section>
     </div>
     <!--Second section-->
@@ -352,5 +352,11 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-close" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
